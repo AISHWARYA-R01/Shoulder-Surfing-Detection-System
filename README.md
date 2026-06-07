@@ -1,20 +1,23 @@
 # Shoulder Surfing Detection System
 
-## Overview
+## Project Overview
 
-The Shoulder Surfing Detection System is an AI-powered privacy protection solution designed to detect unauthorized observers attempting to view sensitive information on a user's screen. The system uses computer vision, face detection, gaze analysis, and real-time risk assessment to identify potential privacy threats and automatically trigger protective actions.
+The Shoulder Surfing Detection System is an AI-powered privacy protection solution designed to safeguard sensitive information from visual eavesdropping attacks. The system leverages computer vision, facial analysis, gaze estimation, and real-time risk assessment techniques to identify unauthorized observers attempting to view a user's screen.
 
-## Features
+By continuously monitoring the surrounding environment through a webcam, the system evaluates privacy risks and activates protective mechanisms when potential shoulder surfing behavior is detected. The solution is particularly relevant in public workspaces, educational environments, financial institutions, and corporate settings where information confidentiality is critical.
 
-* Real-time Face Detection
-* Observer Identification
-* Gaze Tracking and Analysis
-* Risk Assessment Engine
-* Privacy Protection Mechanism
-* Live Webcam Monitoring
-* Alert Generation
+## Key Features
 
-## Technologies Used
+* Real-Time Face Detection
+* Observer Identification and Tracking
+* Gaze Direction Analysis
+* Privacy Risk Assessment Engine
+* Automated Protection Mechanisms
+* Multi-Observer Monitoring
+* Real-Time Alert Generation
+* Live Webcam Surveillance
+
+## Technology Stack
 
 * Python
 * OpenCV
@@ -23,26 +26,34 @@ The Shoulder Surfing Detection System is an AI-powered privacy protection soluti
 * Computer Vision
 * Machine Learning
 
-## Installation
+## System Workflow
 
-1. Clone the repository
-2. Install required dependencies
-3. Run the application
-4. Grant webcam access
+1. Capture live video stream through webcam.
+2. Detect and track nearby individuals.
+3. Analyze facial orientation and gaze direction.
+4. Evaluate privacy risk using behavioral indicators.
+5. Trigger protective actions when suspicious observation is detected.
 
-## Usage
+## Applications
 
-The system continuously monitors the user's environment through a webcam. When an unauthorized observer is detected looking at the screen, the system evaluates the risk level and activates privacy protection measures.
+* Cybersecurity and Privacy Protection
+* Secure Workstations
+* Financial Services
+* Educational Institutions
+* Government Organizations
+* Enterprise Environments
 
 ## Future Enhancements
 
-* Multi-camera support
-* Deep learning-based observer recognition
-* Mobile device integration
-* Enhanced behavioral analytics
-* Cloud-based monitoring dashboard
+* Deep Learning-Based Observer Recognition
+* Multi-Camera Surveillance Support
+* Mobile Device Privacy Protection
+* Cloud-Based Monitoring Dashboard
+* Advanced Behavioral Analytics
 
 ## Author
 
 Aishwarya Rajasekaran
-Cybersecurity Student
+
+Cybersecurity Student | Computer Vision and Privacy Security Researcher
+
