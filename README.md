@@ -50,7 +50,19 @@ By continuously monitoring the surrounding environment through a webcam, the sys
 * Mobile Device Privacy Protection
 * Cloud-Based Monitoring Dashboard
 * Advanced Behavioral Analytics
+## System Architecture
 
+```text
+Webcam
+   ↓
+Face Detection
+   ↓
+Gaze Analysis
+   ↓
+Risk Assessment Engine
+   ↓
+Privacy Protection Mechanism
+```
 ## Author
 
 Aishwarya Rajasekaran
